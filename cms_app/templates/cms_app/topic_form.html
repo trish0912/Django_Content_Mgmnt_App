@@ -1,0 +1,23 @@
+{% extends 'cms_app/content.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div>
+    <form method="POST">
+        {% csrf_token %}
+            {% if object  %}
+                <h4 class="mb-4">Update your Topic &#128071</h4>
+                {{ form|crispy }}
+            {% else %}
+                <h4 class="mb-4">Create your new Topic &#128071</h4>
+                {{ form|crispy }}
+            {% endif %}
+        <div class="form-group">
+            <button class="btn btn-light" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+    
+
+{% endblock content %}
