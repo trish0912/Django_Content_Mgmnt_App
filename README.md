@@ -23,7 +23,10 @@ A user-friendly content management system built with **Django** and **Bootstrap 
 - 👤 Automatic profile creation upon registration
 - 🖼 Update profile info and upload profile picture
 - 🔐 Password reset and change features
-- 🎨 Responsive frontend built with **Bootstrap 5**
+- 🔍 Search functionality for topics
+- 📄 Pagination for topic and content lists
+- 🎨 Responsive frontend using **Bootstrap 5**
+- 🧩 Modular Django app structure
 - ⚙️ Admin dashboard for superusers via Django admin
 
 ---
@@ -71,11 +74,13 @@ App: http://127.0.0.1:8000/
 Admin: http://127.0.0.1:8000/admin/
 ```
 🔓 Visitors (no login)
+
 Can browse all topics and content
 
 No account needed
 
 🔐 Registered Users
+
 Can create, edit, delete topics and content
 
 Can comment on content
@@ -84,7 +89,14 @@ Have a personal profile (with picture)
 
 Can update profile info and reset password
 
+🔍 Search & Navigation
+
+- Users can search topics by keywords from the homepage or topic list.
+- 
+- Both topic and content lists are paginated to ensure performance and readability.
+
 🎨 Frontend Design
+
 Fully responsive using Bootstrap 5
 
 Styled navigation, buttons, forms, and cards
@@ -92,6 +104,7 @@ Styled navigation, buttons, forms, and cards
 Easy to customize via templates and static CSS
 
 🚀 Deployment
+
 This project is deployed on PythonAnywhere:
 
 🔗 Live URL: https://trishna15.pythonanywhere.com
@@ -107,10 +120,12 @@ Media/static path setup
 collectstatic, migrate, createsuperuser
 
 PythonAnywhere deployment guide:
+
 https://help.pythonanywhere.com/pages/DeployingDjango/
 
 
 🙋‍♀️ Author
+
 Trishna Roy
 
 GitHub: @trish0912
