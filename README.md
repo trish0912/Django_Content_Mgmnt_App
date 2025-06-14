@@ -14,32 +14,32 @@ A user-friendly content management system built with **Django** and **Bootstrap 
 
 ## 📌 Features
 
-- 📖 Public access to browse and read content
-- 🧑‍💻 User registration and login for content creators
-- 🗂 Create, update, and delete:
-  - Topics
-  - Content under topics
-- 💬 Add comments to content
-- 👤 Automatic profile creation upon registration
-- 🖼 Update profile info and upload profile picture
-- 🔐 Password reset and change features
-- 🔍 Search functionality for topics
-- 📄 Pagination for topic and content lists
-- 🎨 Responsive frontend using **Bootstrap 5**
-- 🧩 Modular Django app structure
-- ⚙️ Admin dashboard for superusers via Django admin
+    - 📖 Public access to browse and read content
+    - 🧑‍💻 User registration and login for content creators
+    - 🗂 Create, update, and delete:
+      - Topics
+      - Content under topics
+    - 💬 Add comments to content
+    - 👤 Automatic profile creation upon registration
+    - 🖼 Update profile info and upload profile picture
+    - 🔐 Password reset and change features
+    - 🔍 Search functionality for topics
+    - 📄 Pagination for topic and content lists
+    - 🎨 Responsive frontend using **Bootstrap 5**
+    - 🧩 Modular Django app structure
+    - ⚙️ Admin dashboard for superusers via Django admin
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Python 3.x**
-- **Django (latest stable)**
-- **SQLite** (default DB)
-- **Bootstrap 5** (via CDN)
-- **Django Templates**
-- **Django Auth System**
-- **Deployed on PythonAnywhere**
+    - **Python 3.x**
+    - **Django (latest stable)**
+    - **SQLite** (default DB)
+    - **Bootstrap 5** (via CDN)
+    - **Django Templates**
+    - **Django Auth System**
+    - **Deployed on PythonAnywhere**
 
 ---
 
@@ -75,53 +75,53 @@ Admin: http://127.0.0.1:8000/admin/
 ```
 🔓 Visitors (no login)
 
-Can browse all topics and content
-
-No account needed
+    Can browse all topics and content
+    
+    No account needed
 
 🔐 Registered Users
 
-Can create, edit, delete topics and content
-
-Can comment on content
-
-Have a personal profile (with picture)
-
-Can update profile info and reset password
+    Can create, edit, delete topics and content
+    
+    Can comment on content
+    
+    Have a personal profile (with picture)
+    
+    Can update profile info and reset password
 
 🔍 Search & Navigation
 
-- Users can search topics by keywords from the homepage or topic list.
-- 
-- Both topic and content lists are paginated to ensure performance and readability.
+    - Users can search topics by keywords from the homepage or topic list.
+    - 
+    - Both topic and content lists are paginated to ensure performance and readability.
 
 🎨 Frontend Design
 
-Fully responsive using Bootstrap 5
-
-Styled navigation, buttons, forms, and cards
-
-Easy to customize via templates and static CSS
+    Fully responsive using Bootstrap 5
+    
+    Styled navigation, buttons, forms, and cards
+    
+    Easy to customize via templates and static CSS
 
 🚀 Deployment
 
-This project is deployed on PythonAnywhere:
-
-🔗 Live URL: https://trishna15.pythonanywhere.com
+    This project is deployed on PythonAnywhere:
+    
+    🔗 Live URL: https://trishna15.pythonanywhere.com
 
 Hosting includes:
 
-GitHub integration
-
-WSGI config
-
-Media/static path setup
-
-collectstatic, migrate, createsuperuser
-
-PythonAnywhere deployment guide:
-
-https://help.pythonanywhere.com/pages/DeployingDjango/
+    GitHub integration
+    
+    WSGI config
+    
+    Media/static path setup
+    
+    collectstatic, migrate, createsuperuser
+    
+    PythonAnywhere deployment guide:
+    
+    https://help.pythonanywhere.com/pages/DeployingDjango/
 
 
 🙋‍♀️ Author
